@@ -1,0 +1,35 @@
+.img-box img{
+    max-width: 430px;
+    
+}
+
+.shadow-box{
+    position: fixed;
+    top:0;
+    left: 0;
+    height:100vh;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgba(195, 196, 197,0.7)
+}
+.shadow-box img{
+    position: fixed;
+    top:19%;
+    left:33%;
+    transition: all .5s ease-out;
+
+
+}
+
+#shadow-btn{
+    font-size: 27px;
+    display: flex;
+    margin-right: 27px;
+    visibility: hidden;
+    margin-left: auto;
+    cursor: pointer;
+}
+#shadow-btn:hover{
+    color:red;
+    background-color: black;
+}
